@@ -9,22 +9,22 @@ alias mkxashdir="cd && cd ubuntu-fs/usr/games && mkdir xash"
 
 
 #install & extract
-echo "installing ubuntu ..."
+echo "Installing ubuntu ..."
 installubuntu
 echo "
- [[ Termux - xashDS]] this update for xash3D-new-engine and old engine
+[[ Termux - xashDS]] this update for Xash3D-FWGS new engine and old engine, with ability to start HLDM and TFC
 
 "
 db
-echo "remplacing ubuntu bash.bashrc file ...
+echo "Replacing ubuntu bash.bashrc file ...
 "
 sleep 3
 tr
-echo "remplacing termux bash.bashrc file  ...
+echo "Replacing termux bash.bashrc file  ...
 "
 sleep 3
 mkxashdir
-echo "building xash folder ...
+echo "Building xash folder ...
  "
 sleep 3
 echo "
